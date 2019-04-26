@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="device_json" />
+		<Option pch_mode="2" />
+		<Option compiler="arm-elf-gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/device_json" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="arm-elf-gcc" />
+				<Compiler>
+					<Add option="-w" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/device_json" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="arm-elf-gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="GetProfile.cpp" />
+		<Unit filename="GetProfile.h" />
+		<Unit filename="cJSON.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cJSON.h" />
+		<Unit filename="device.cpp" />
+		<Unit filename="json/Temp_ hum.json" />
+		<Unit filename="modbus.cpp" />
+		<Unit filename="modbus.h" />
+		<Unit filename="setport.cpp" />
+		<Unit filename="setport.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

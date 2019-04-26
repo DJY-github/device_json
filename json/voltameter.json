@@ -1,0 +1,93 @@
+{
+    "Address": 1 ,
+    "Function": 3 ,
+    "Data": [
+        {"name": "A相电压U1", "addr": "1400H", "num": 1, "coeff": 0.01},
+        {"name": "B相电压U2", "addr": "1401H", "num": 1, "coeff": 0.01},
+        {"name": "C相电压U3", "addr": "1402H", "num": 1, "coeff": 0.01},
+        {"name": "线电压U12", "addr": "1403H", "num": 1, "coeff": 0.01},
+        {"name": "线电压U23", "addr": "1404H", "num": 1, "coeff": 0.01},
+        {"name": "线电压U31", "addr": "1405H", "num": 1, "coeff": 0.01},
+
+        {"name": "相(线)电流I1", "addr": "1406H", "num": 0, "coeff": 0.01},
+        {"name": "相(线)电流I2", "addr": "1407H", "num": 0, "coeff": 0.01},
+        {"name": "相(线)电流I3", "addr": "1408H", "num": 0, "coeff": 0.01},
+
+        {"name": "相电压均值Uavg", "addr": "1409H", "num": 0, "coeff": 0.01},
+        {"name": "线电压均值ULavg", "addr": "140AH", "num": 0, "coeff": 0.01},
+
+        {"name": "电流均值Iavg", "addr": "140BH", "num": 0, "coeff": 0.01},
+
+        {"name": "系统有功功率P", "addr": "140CH", "num": 0, "coeff": 0.01},
+        {"name": "系统无功功率Q", "addr": "140DH", "num": 0, "coeff": 0.01},
+        {"name": "系统视在功率S", "addr": "140EH", "num": 0, "coeff": 0.01},
+
+        {"name": "系统频率F", "addr": "140FH", "num": 0, "coeff": 0.01},
+
+        {"name": "系统功率因数PF", "addr": "1410H", "num": 0, "coeff": 0.01},
+        {"name": "负载性质RT", "addr": "1411H", "num": 0, "coeff": 0.01},
+        {"name": "模拟输出AO1", "addr": "1412H", "num": 0, "coeff": 0.01},
+        {"name": "模拟输出AO2", "addr": "1413H", "num": 0, "coeff": 0.01},
+        {"name": "中线电流In", "addr": "1414H", "num": 0, "coeff": 0.01},
+
+        {"name": "绝对值和有功电度Ep", "addr": "1880H", "num": 2, "coeff": 0.01},
+        {"name": "绝对值和无功电度Eq", "addr": "1882H", "num": 2, "coeff": 0.01},
+        {"name": "Ep+ 正向有功电能", "addr": "1884H", "num": 2, "coeff": 0.01},
+        {"name": "Ep- 反向有功电能", "addr": "1886H", "num": 2, "coeff": 0.01},
+        {"name": "Eq+ 正向无功电能", "addr": "1888H", "num": 2, "coeff": 0.01},
+        {"name": "Eq- 反向无功电能", "addr": "188AH", "num": 2, "coeff": 0.01},
+
+
+        {"name": "DI1", "addr": "0000H", "num": 0, "coeff": 0.01},
+        {"name": "DI2", "addr": "0001H", "num": 0, "coeff": 0.01},
+        {"name": "DI3", "addr": "0002H", "num": 0, "coeff": 0.01},
+        {"name": "DI4", "addr": "0003H", "num": 0, "coeff": 0.01},
+
+        {"name": "Relay1", "addr": "0000H", "num": 0, "coeff": 0.01},
+        {"name": "Relay2", "addr": "0001H", "num": 0, "coeff": 0.01},
+
+        {"name": "保护密码",         "addr": "1100H", "num": 0, "coeff": 0.01},
+        {"name": "通讯地址",         "addr": "1101H", "num": 0, "coeff": 0.01},
+        {"name": "通讯波特率",        "addr": "1102H", "num": 0, "coeff": 0.01},
+        {"name": "通信奇偶校验位设定", "addr": "1103H", "num": 0, "coeff": 0.01},
+        {"name": "接线方式设定",       "addr": "1104H", "num": 0, "coeff": 0.01},
+        {"name": "PT1(低字)",         "addr": "1105H", "num": 0, "coeff": 0.01},
+        {"name": "PT1(高字)",         "addr": "1106H", "num": 0, "coeff": 0.01},
+        {"name": "PT2",               "addr": "1107H", "num": 0, "coeff": 0.01},
+        {"name": "CT1",               "addr": "1108H", "num": 0, "coeff": 0.01},
+        {"name": "CT2",               "addr": "1109H", "num": 0, "coeff": 0.01},
+        {"name": "无功计量方式设定",    "addr": "110AH", "num": 0, "coeff": 0.01},
+        {"name": "背光点亮时间",        "addr": "110BH", "num": 0, "coeff": 0.01},
+        {"name": "负载性质判断标准设定", "addr": "110CH", "num": 0, "coeff": 0.01},
+        {"name": "清电能",              "addr": "110DH", "num": 0, "coeff": 0.01},
+
+        {"name": "RO输出方式选择",   "addr": "1200H", "num": 0, "coeff": 0.01},
+        {"name": "DO功能选择",       "addr": "1201H", "num": 0, "coeff": 0.01},
+        {"name": "脉冲常数设定",     "addr": "1202H", "num": 0, "coeff": 0.01},
+        {"name": "RO1报警参数选择",   "addr": "1203H", "num": 0, "coeff": 0.01},
+        {"name": "RO1报警限值",      "addr": "1204H", "num": 0, "coeff": 0.01},
+        {"name": "RO1报警时间限值",   "addr": "1205H", "num": 0, "coeff": 0.01},
+        {"name": "RO1报警不等式符号",  "addr": "1206H", "num": 0, "coeff": 0.01},
+        {"name": "RO1报警输出方式选择", "addr": "1207H", "num": 0, "coeff": 0.01},
+        {"name": "DO1脉冲电度选择",    "addr": "1208H", "num": 0, "coeff": 0.01},
+        {"name": "DO2脉冲功能选择",    "addr": "1209H", "num": 0, "coeff": 0.01},
+        {"name": "RO2报警参数选择",    "addr": "120AH", "num": 0, "coeff": 0.01},
+        {"name": "RO2报警限值",        "addr": "120BH", "num": 0, "coeff": 0.01},
+        {"name": "RO2报警时间限值",    "addr": "120CH", "num": 0, "coeff": 0.01},
+        {"name": "RO2报警不等式符号",   "addr": "120DH", "num": 0, "coeff": 0.01},
+        {"name": "RO2报警输出方式选择", "addr": "120EH", "num": 0, "coeff": 0.01},
+
+        {"name": "AO1跟随参数选择",  "addr": "1300H", "num": 0, "coeff": 0.01},
+        {"name": "AO1输出模式",      "addr": "1301H", "num": 0, "coeff": 0.01},
+        {"name": "AO1跟随高端范围",   "addr": "1302H", "num": 0, "coeff": 0.01},
+        {"name": "AO1跟随低端范围",   "addr": "1303H", "num": 0, "coeff": 0.01},
+        {"name": "AO1高端范围正负号",  "addr": "1304H", "num": 0, "coeff": 0.01},
+        {"name": "AO1低端范围正负号",  "addr": "1305H", "num": 0, "coeff": 0.01},
+        {"name": "AO2跟随参数选择",    "addr": "1306H", "num": 0, "coeff": 0.01},
+        {"name": "AO2输出模式",       "addr": "1307H", "num": 0, "coeff": 0.01},
+        {"name": "AO2跟随高端范围",    "addr": "1308H", "num": 0, "coeff": 0.01},
+        {"name": "AO2跟随低端范围",    "addr": "1309H", "num": 0, "coeff": 0.01},
+        {"name": "AO2高端范围正负号",   "addr": "130AH", "num": 0, "coeff": 0.01},
+        {"name": "AO2低端范围正负号",   "addr": "130BH", "num": 0, "coeff": 0.01}
+    ]
+}

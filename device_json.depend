@@ -1,0 +1,55 @@
+# depslib dependency file v1.0
+1556096754 source:/home/djy/work/device_json/cJSON.c
+	<string.h>
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<float.h>
+	<limits.h>
+	<ctype.h>
+	"cJSON.h"
+
+1556096754 /home/djy/work/device_json/cJSON.h
+
+1556245702 source:/home/djy/work/device_json/device.cpp
+	"setport.h"
+	"GetProfile.h"
+	"modbus.h"
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+
+1556102603 /home/djy/work/device_json/setport.h
+	<stdio.h>
+	<errno.h>
+	<termios.h>
+	<string.h>
+	<termios.h>
+
+1556191766 /home/djy/work/device_json/modbus.h
+	<stdio.h>
+	"cJSON.h"
+	<stdlib.h>
+	<memory.h>
+	<unistd.h>
+	<arpa/inet.h>
+	<ctype.h>
+	"GetProfile.h"
+
+1556277672 source:/home/djy/work/device_json/modbus.cpp
+	"modbus.h"
+
+1554866546 source:/home/djy/work/device_json/setport.cpp
+	"setport.h"
+
+1556177627 /home/djy/work/device_json/GetProfile.h
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	<ctype.h>
+	"cJSON.h"
+
+1556191928 source:/home/djy/work/device_json/GetProfile.cpp
+	"GetProfile.h"
+

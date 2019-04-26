@@ -1,0 +1,8 @@
+{
+    "Address": 1 ,
+    "Function": 3 ,
+    "Data": [
+        {"name": "温度", "addr": "0x0000","num": 1,"coeff": 0.01},
+        {"name": "湿度","addr": "0x0001","num": 1,"coeff": 0.01}
+    ]
+}
